@@ -1,0 +1,14 @@
+{% extends 'dz_app3/base.html' %}
+
+{% block title %} Все клиенты магазина {% endblock %}
+
+{% block content %}
+    <h1>Все клиенты магазина DZ 3</h1>
+
+    <h2>Все клиенты интернет-мазина:</h2>
+    {% for item in context %}
+        <li>{{ item }}</li>
+    {% endfor %}
+
+
+{% endblock %}

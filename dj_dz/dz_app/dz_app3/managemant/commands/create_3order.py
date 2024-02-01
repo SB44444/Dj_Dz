@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand, CommandParser
-from dz_app2.models import Order, User, Product
+from dz_app3.models import Order, User, Product
 # from datetime import datetime
 
 
@@ -18,6 +18,12 @@ class Command(BaseCommand):
         product = Product.objects.filter(id=product_pk).first()
 
         order = Order(customer=customer, products=product, total_price=product.price * product.store)
+        # order = Order(customer=customer, products=product, total_price=Product.self.price * Product.self.store)
 
         order.save()
-        self.stdout.write(f'Заказ клиента {user_pk}:  {order}')
+        self.stdout.write(f'Заказ клиента {Product.self.id}:  {order}')
+
+        # customer = models.ForeignKey(User, on_delete=models.CASCADE)  # Клиент
+        # products = models.ManyToManyField(Product)  # продукт этого заказа
+        # date_ordered = models.DateTimeField(auto_now_add=True)  # Дата заказа
+        # total_price = models.DecimalField(max_digits=8, decimal_places=2)  # Сумма заказа

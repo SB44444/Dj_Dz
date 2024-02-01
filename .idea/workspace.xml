@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1c6cca-209e-42d5-abb2-f7f98698ab6f" name="Changes" comment="" />
+    <list default="true" id="be1c6cca-209e-42d5-abb2-f7f98698ab6f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/create_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/create_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/create_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/create_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/get_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/get_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/get_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/management/commands/get_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_dz/dz_app/dz_app2/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -25,6 +40,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2bCMV3et0Erj7RkCVtnRlXVMVgV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,11 +52,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "K:/Django/Dj_Dz/dj_dz/dz_app/dz_app3/templates/dz_app3",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\Django\Dj_Dz\dj_dz\dz_app\dz_app3\templates\dz_app3" />
+      <recent name="K:\Django\Dj_Dz\dj_dz\dz_app\dz_app3\managemant\commands" />
+      <recent name="K:\Django\Dj_Dz\dj_dz\dz_app\dz_app3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="K:\Django\Dj_Dz\dj_dz\dz_app" />
       <recent name="K:\Django\Dj_Dz\dj_dz" />

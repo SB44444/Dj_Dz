@@ -25,13 +25,13 @@ def index(request):
     return HttpResponse(html)
 
 
-def all_Users_view(request):
+def all_Users2_view(request):
     users = User.objects.all()
     out_str = '<br>'.join([str(users) for users in users])
     return HttpResponse(out_str)
 
 
-def all_Products_view(request):
+def all_Products2_view(request):
     products = Product.objects.all()
     out_str = '<br>'.join([str(products) for products in products])
     return HttpResponse(out_str)
