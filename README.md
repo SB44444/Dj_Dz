@@ -76,7 +76,7 @@ Django DZ_4 had been dane
 
 Реализация:  
 
-<https://github.com/SB44444/Dj_Dz/DZ4>  
+<https://github.com/SB44444/Dj_Dz/tree/master/Dz4>  
 
 
 
