@@ -16,7 +16,7 @@ def index(request):
             '<title>Main</title>'
             '</head>'
             '<body>'
-            '<h1>Главная</h1>'
+            '<h1>Главная 1</h1>'
             '<h2>Старт проекта интернет-мазина</h2>'
             '<footer>'
             '<hr>'
