@@ -33,25 +33,25 @@ def all_Products4_view(request):
 def user_4Order(request, user_id):
     user = get_object_or_404(User, pk=user_id)
     orders = Order.objects.filter(client=user)
-    return render(request, 'dz_app3/all_user_order.html', {'user': user, 'order': orders})
+    return render(request, 'dz_app4/all_user_order.html', {'user': user, 'order': orders})
 
 
 def week_4order(request, user_id):
     user = get_object_or_404(User, pk=user_id)
     orders = Order.objects.filter(client=user)
-    return render(request, 'dz_app3/week_user_orders.html', {'order': orders})
+    return render(request, 'dz_app4/week_user_orders.html', {'order': orders})
 
 
 def month_4order(request, user_id):
     user = get_object_or_404(User, pk=user_id)
     orders = Order.objects.filter(client=user)
-    return render(request, 'dz_app3/month_user_orders.html', {'order': orders})
+    return render(request, 'dz_app4/month_user_orders.html', {'order': orders})
 
 
 def year_4order(request, user_id):
     user = get_object_or_404(User, pk=user_id)
     orders = Order.objects.filter(client=user)
-    return render(request, 'dz_app3/year_user_orders.html', {'order': orders})
+    return render(request, 'dz_app4/year_user_orders.html', {'order': orders})
 
 
 def user_4order_in_year(request):

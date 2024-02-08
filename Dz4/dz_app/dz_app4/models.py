@@ -18,9 +18,8 @@ class Product(models.Model):  # Товар
     name = models.CharField(max_length=100)  # Название
     price = models.DecimalField(max_digits=8, decimal_places=2)  # Цена
     description = models.TextField()  # Описание
-    image = models.ImageField(upload_to='products/')  # Фото
     date_receipt = models.DateTimeField(auto_now_add=True)  # Дата получения
-    store = models.IntegerField()  # Количество
+    store = models.IntegerField(default=0)  # Количество
     image_field = models.ImageField(null=True, blank=True, default=None, upload_to='media/')  # Фото
 
     def __str__(self):

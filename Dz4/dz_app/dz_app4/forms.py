@@ -44,4 +44,4 @@ class ChoiceProductByClientBydays(forms.Form):  # User
 #     customer = forms.ModelChoiceField(queryset=User.objects.all())
 #     products = forms.ModelChoiceField(queryset=Product.objects.all())
 #     date_ordered = forms.DateTimeField(auto_now_add=True)
-#     otal_price = forms.DecimalField(max_digits=8, decimal_places=2)
+#     total_price = forms.DecimalField(max_digits=8, decimal_places=2)
